@@ -1,4 +1,4 @@
-FROM jenkins
+FROM jenkinsci/jenkins
 MAINTAINER sagar
 USER root
 RUN apt-get update
