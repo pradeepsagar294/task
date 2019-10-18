@@ -1,5 +1,4 @@
-FROM jenkinsci/jenkins
-MAINTAINER sagar
+FROM jenkinsci/jenkinsci
+MAINTAINER bun
 USER root
-RUN apt-get update
-RUN apt-get install -y maven git
+ROOT apt-get update
