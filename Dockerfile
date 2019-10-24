@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkinsci
-MAINTAINER bun
+FROM jenkinsci/jenkins
+MAINTAINER ghi
 USER root
-ROOT apt-get update
+RUN apt-get update
